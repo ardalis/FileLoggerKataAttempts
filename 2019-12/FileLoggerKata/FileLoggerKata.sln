@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29512.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLoggerKata", "FileLoggerKata.csproj", "{3056E0B2-9A60-4F43-A035-8DE5986CD835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3056E0B2-9A60-4F43-A035-8DE5986CD835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3056E0B2-9A60-4F43-A035-8DE5986CD835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3056E0B2-9A60-4F43-A035-8DE5986CD835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3056E0B2-9A60-4F43-A035-8DE5986CD835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D050AEBA-B07D-40EC-A13F-EB2633D4A356}
+	EndGlobalSection
+EndGlobal
