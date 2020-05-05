@@ -16,7 +16,7 @@ namespace FileLoggerKata
     public class FileLoggerLog
     {
         [Fact]
-        public void WritesMessageToLogTxt()
+        public void WritesMessageToLogTxtFile()
         {
             var logger = new FileLogger();
             var msg = Guid.NewGuid().ToString();
@@ -25,7 +25,6 @@ namespace FileLoggerKata
 
             var logfile = File.ReadAllText("log.txt");
             Assert.Contains(msg, logfile);
-
         }
     }
 }
